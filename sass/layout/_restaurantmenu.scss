@@ -119,12 +119,15 @@
             width: 97%;
             overflow: hidden;
 
-
-           
             &__title{
                 font-weight: 600;
                 font-size: 21px;
                 margin-bottom: 5px;  
+
+                & p{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
             }
 
             &__description{

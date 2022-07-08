@@ -42,20 +42,32 @@
 
 @mixin check{
 
-    &:hover .lunches-card__food__description p:nth-child(2){
-        padding-right: 70px;
-    }
-    
-    &:hover .container-icon{
-        transform: translateX(0px);
-        & i{
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%) rotate(0deg);
-        }
-    }
+    &:hover{
+        & .lunches-card__food{
+            &__title{
+                & p{
+                    padding-right: 70px;
+                }
+            }
 
+            &__description{
+                & p:nth-child(2){
+                    padding-right: 70px;
+                }
+            }
+        }
+
+        & .container-icon{
+            transform: translateX(0px);
+            & i{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+        }
+    } 
+    
     .container-icon{
         position: absolute;
         right: 0;
