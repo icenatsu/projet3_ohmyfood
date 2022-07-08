@@ -1,0 +1,301 @@
+
+// LOCATION -------------------
+.location{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 30px;
+    background-color: #eaeaea;
+
+    & i{
+        padding-right: 10px;
+    }
+}
+
+// EXPLORE -------------------
+
+.explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 15px;
+    
+    
+    &__title{
+        width: 300px;
+        
+        text-align: center;
+        font-weight: 900;
+        padding: 15px;
+    }
+
+    &__description{
+        width: 90%;
+        
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+// FONCTIONNEMENT -------------------
+
+.functioning{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    
+    &__title{
+        width: 90%;
+        margin: 60px auto 40px auto;
+    }
+
+    &__btn{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+
+        &__item{
+            display: flex;
+            align-items: center;
+            border: none;
+            border-radius: 30px;
+            padding-right: 40px;
+            padding-left: 20px;
+            margin-bottom: 20px;
+            height: 80px;
+            background-color: #f7f7f7;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0,0.1), 0px 12px 18px rgba(0, 0, 0,0.1);
+            position: relative;
+            transition: 0.3s ease;
+
+            &:hover{
+                background-color: rgba($color: #9356DC, $alpha: 0.2);
+                box-shadow: 0px 0px 17px 6px rgba(0,0,0,0.36);
+                & i{
+                    color: $primary-color;
+                }
+            }
+
+            & p{
+
+                &:nth-child(1){
+                border-radius: 50%;
+                padding: 5px 10px;
+                background-color: $primary-color;
+                color: white;
+                font-size: 0.9rem;
+                position: absolute;
+                top: 25px;
+                left: -8px;
+                }
+
+                &:nth-child(3){
+                    font-weight: bold;
+                    margin-left: 10px;
+                    font-size: 20px;
+                }
+            }    
+
+            & i{
+                padding: 0 20px;
+                color: grey;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+// RESTAURANTS
+
+.restaurants{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    width: 100vw;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    
+    &__title{
+        width: 90%;
+        margin: 60px auto 40px auto;
+    }
+}    
+
+.container_thumbnails{
+    width: 90%;
+    margin: auto;
+    
+    & .thumbnail{
+
+        @include heart;
+
+        width: 100%;
+        height: 280px;
+        border-radius: 30px;
+        margin: auto;
+        overflow: hidden;
+        box-shadow: 0px 0px 17px 6px rgba(0,0,0,0.36);
+        margin-bottom: 30px;
+        transition: 0.3s ease-in-out;
+
+        &:hover{
+            transform: scale(1.03);
+        }
+
+        &__image{
+            position: relative;
+            & img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            }
+
+            &--new{
+                width: 100px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $third-color;
+                position: absolute;
+                right:30px;
+                top: 15px;
+                color: #12624e;
+                font-weight: bold;
+            }
+        }
+
+        & .container__description{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        &__description{
+            margin-left: 20px;
+
+            &__title{
+                font-size: 1.5rem;
+                font-weight: bold;
+                
+                margin-bottom: 10px;
+                margin-top: 5px;
+            }
+     
+             &__location{
+                font-size: 1.1rem;
+                
+            }
+        }
+
+    }
+}
+
+// MEDIA QUERY -----------------------------------------------
+
+@media screen and (min-width:768px) and (max-width:991px){
+    
+    // ==> MQ 768 - FONCTIONNEMENT
+    .functioning{
+
+        &__btn{
+            flex-wrap: wrap;
+            align-items: center;
+            height: 180px;
+            width: 94%;
+            margin: auto;
+
+            &__item{
+                width: 30%;
+                &:nth-child(1){
+                    height: 100%;
+                }
+                &:nth-child(2){
+                    height: 100%;
+                }
+                &:nth-child(3){
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    // ==> MQ 768 - RESTAURANT
+    .container_thumbnails{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+
+        & .thumbnail{
+            width: 45%;
+            height: 280px;
+        }   
+    }
+}    
+
+@media screen and (min-width:992px){
+    
+    // ==> MQ 992 - FONCTIONNEMENT ET RESTAURANTS-------------------
+    .larg_max{
+        max-width: 1440px;
+        margin: auto;
+    }
+
+    // ==> MQ 992 - FONCTIONNEMENT
+    .functioning{
+        width: 100%;
+        &__btn{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            &__item{
+                width: 30%;
+            }
+        }   
+    }     
+
+    // ==> MQ 992 - Restaurant
+    .restaurants{
+        width: 100%;
+        display: block;
+        
+        &__title{
+            padding-top: 60px;
+        }
+    }
+
+    .container_thumbnails{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 700px;
+
+        & .thumbnail{
+            width: 45%;
+            &:nth-child(1){
+                height: 40%;
+            }
+            &:nth-child(2){
+                height: 40%;
+            }
+            &:nth-child(3){
+                height: 40%;
+            }
+            &:nth-child(4){
+                height: 40%;
+            }
+
+        }
+    } 
+}

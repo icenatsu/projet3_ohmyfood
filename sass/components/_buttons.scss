@@ -1,0 +1,21 @@
+// BOUTONS
+
+button{
+    background: linear-gradient(180deg, rgba(255,121,218,1) 20%, rgba(147,86,220,1) 73%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0,0.1), 0px 12px 18px rgba(0, 0, 0,0.1);
+    height: 50px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 1rem;
+    cursor: pointer;
+    
+    &:hover{
+        background: linear-gradient(180deg, rgba(255,121,218,0.9) 20%, rgba(147,86,220,0.9) 73%);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0,0.2);
+    }
+}

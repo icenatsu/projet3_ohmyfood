@@ -1,0 +1,102 @@
+@mixin formBanner{
+    
+    width: 100vw;
+    height: 55vh;
+    background-size: cover;
+}
+
+@mixin heart{
+
+    &__heart{
+        margin-right: 30px;
+        position: relative;
+        width: 30px;
+        height: 30px;
+        position: relative;
+
+        &--full{
+            fill: url(#color_fill);
+            stroke: none;
+            cursor: pointer;
+            opacity: 1;
+        }
+
+        &--empty{
+            fill: white;
+            stroke: black;
+            stroke-width: 30px;
+            cursor: pointer;
+            transition: 0.6s ease-in-out;
+        
+            &:hover{
+                opacity: 0;
+                stroke: none;
+            }
+        }
+
+        & .heart{
+            position: absolute;    
+        }
+    }
+}
+
+@mixin check{
+
+    &:hover .lunches-card__price{
+        padding-right: 60px;
+    }
+    
+    &:hover .container-icon{
+        transform: translateX(0px);
+        & i{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(0deg);
+        }
+    }
+
+    .container-icon{
+        position: absolute;
+        right: 0;
+        background-color: $third-color;
+        height: 100%;
+        width: 70px;
+        padding: 0 13px;
+        transform: translateX(70px);
+        transition: 0.65s;
+        
+        & i{
+            font-size: 1.9rem;
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(-360deg);
+            transition: 0.5s ease-in-out;
+        }
+    }
+}
+
+@mixin animationDelay($duration, $delay, $desc...){
+    @for $i from 0 to length($desc){
+        #{nth($desc, $i + 1)}{
+            -webkit-animation: delay #{$duration}s ease-in-out #{$delay + 0.1s} both;
+                    animation: delay #{$duration}s ease-in-out #{$delay + 0.1s} both;
+            $delay: $delay + 0.1;
+        }
+    }
+}
+
+
+@mixin loadingdelay($delay, $number){
+    @for $i from 1 to $number{
+        &:nth-child(#{$i}){
+            -webkit-animation-delay: #{$delay + 0.1s};
+                    animation-delay: #{$delay + 0.1s};
+            $delay: $delay + 0.1;
+        }
+    }
+}
+
+

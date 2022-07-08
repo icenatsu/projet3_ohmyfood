@@ -1,0 +1,15 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+
+@import "./components/buttons";
+
+@import "./base/base";
+@import "./base/typography";
+@import "./base/animations";
+
+@import "./layout/loader";
+@import "./layout/header";
+@import "./layout/container";
+@import "./layout/restaurantbanner";
+@import "./layout/restaurantmenu";
+@import "./layout/footer";

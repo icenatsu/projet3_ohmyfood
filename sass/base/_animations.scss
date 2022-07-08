@@ -1,0 +1,60 @@
+@keyframes delay{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes loading {
+    0% {
+        opacity: 0;
+        z-index: -1000;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes lettre {
+    0% {
+        color: #9356DC;
+        text-shadow: 0 0 7px #9356DC;
+    }
+
+    90% {
+        color: #FF79DA;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #9356DC;
+        text-shadow: 0 0 7px #9356DC;
+    }
+
+}
+
+
+@keyframes point {
+    0% {
+        color: #9356DC;
+        text-shadow: 0 0 7px #9356DC;
+    }
+
+    90% {
+        color: #FF79DA;
+        text-shadow: none;
+    }
+
+    100% {
+        color: #99E2D0;
+        text-shadow: 0 0 7px #9356DC;
+    }
+
+}
