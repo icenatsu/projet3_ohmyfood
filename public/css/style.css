@@ -648,7 +648,7 @@ h1 {
 .lunches__dessert, .lunches__main, .lunches__starter {
   display: flex;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: white;
   margin: 20px auto;
   width: 100%;
@@ -658,8 +658,8 @@ h1 {
   position: relative;
 }
 
-.lunches__starter:hover .lunches-card__price {
-  padding-right: 60px;
+.lunches__starter:hover .lunches-card__food__description p:nth-child(2) {
+  padding-right: 70px;
 }
 .lunches__starter:hover .container-icon {
   transform: translateX(0px);
@@ -689,8 +689,8 @@ h1 {
   transform: translate(-50%, -50%) rotate(-360deg);
   transition: 0.5s ease-in-out;
 }
-.lunches__main:hover .lunches-card__price {
-  padding-right: 60px;
+.lunches__main:hover .lunches-card__food__description p:nth-child(2) {
+  padding-right: 70px;
 }
 .lunches__main:hover .container-icon {
   transform: translateX(0px);
@@ -720,8 +720,8 @@ h1 {
   transform: translate(-50%, -50%) rotate(-360deg);
   transition: 0.5s ease-in-out;
 }
-.lunches__dessert:hover .lunches-card__price {
-  padding-right: 60px;
+.lunches__dessert:hover .lunches-card__food__description p:nth-child(2) {
+  padding-right: 70px;
 }
 .lunches__dessert:hover .container-icon {
   transform: translateX(0px);
@@ -759,19 +759,27 @@ h1 {
 }
 .lunches-card__food {
   white-space: nowrap;
-  width: 80%;
+  width: 97%;
   overflow: hidden;
-}
-.lunches-card__food p {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  font-size: 1.1rem;
 }
 .lunches-card__food__title {
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 5px;
 }
-.lunches-card__price {
-  padding-right: 20px;
+.lunches-card__food__description {
+  display: flex;
+  justify-content: space-between;
+}
+.lunches-card__food__description p {
+  font-size: 17px;
+}
+.lunches-card__food__description p:nth-child(1) {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.lunches-card__food__description p:nth-child(2) {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 992px) {
