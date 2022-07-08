@@ -104,7 +104,7 @@ a {
 }
 .loading .letters .lettre {
   color: #484848;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 10px;
   animation: lettre 1.5s linear;
@@ -157,7 +157,7 @@ a {
   align-items: flex-start;
 }
 .loading .suspension .point {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 30px;
   animation: point 1.5s linear;
@@ -175,17 +175,17 @@ a {
   animation-delay: 0.3s;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .loading .letters .lettre {
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 20px;
   }
   .loading .suspension .point {
-    font-size: 70px;
+    font-size: 60px;
     letter-spacing: 30px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 992px) {
   .loading .letters .lettre {
     font-size: 80px;
     letter-spacing: 20px;
@@ -195,7 +195,7 @@ a {
     letter-spacing: 30px;
   }
 }
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1440px) {
   .loading .letters .lettre {
     font-size: 90px;
     letter-spacing: 30px;
