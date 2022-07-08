@@ -22,7 +22,6 @@
     &__food{
         display: grid;
         grid-template-columns: minmax(0, 1fr);
-        grid-template-rows: repeat(3, 1fr);
         grid-template-areas: "starter" "main" "dessert";
         margin-bottom: 20px;
         justify-content: center;
@@ -50,7 +49,7 @@
         &__start{
             grid-area: starter;
             margin-top: 30px;
-            @include animationDelay(3, 0, '.animationdelay1', '.animationdelay2', '.animationdelay3');
+            @include animationDelay(3, 0, '.animationdelay1', '.animationdelay2', '.animationdelay3', '.animationdelay4');
         }
         
         &__main{

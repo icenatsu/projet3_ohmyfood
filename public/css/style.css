@@ -566,7 +566,6 @@ h1 {
 .menu-card__food {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   grid-template-areas: "starter" "main" "dessert";
   margin-bottom: 20px;
   justify-content: center;
@@ -603,6 +602,10 @@ h1 {
 .menu-card__food__start .animationdelay3 {
   -webkit-animation: delay 3s ease-in-out 0.3s both;
   animation: delay 3s ease-in-out 0.3s both;
+}
+.menu-card__food__start .animationdelay4 {
+  -webkit-animation: delay 3s ease-in-out 0.4s both;
+  animation: delay 3s ease-in-out 0.4s both;
 }
 .menu-card__food__main {
   grid-area: main;
