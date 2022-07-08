@@ -89,7 +89,7 @@
                 color: white;
                 font-size: 0.9rem;
                 position: absolute;
-                top: 25px;
+                top: 28px;
                 left: -8px;
                 }
 
@@ -207,12 +207,19 @@
         &__btn{
             flex-wrap: wrap;
             align-items: center;
-            height: 180px;
+            height: 120px;
             width: 94%;
             margin: auto;
 
             &__item{
                 width: 30%;
+
+                & p{
+                    &:nth-child(1){
+                        top: 36px;
+                    }
+                }    
+
                 &:nth-child(1){
                     height: 100%;
                 }
