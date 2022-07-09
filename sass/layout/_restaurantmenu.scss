@@ -125,6 +125,7 @@
                 margin-bottom: 5px;  
 
                 & p{
+                    transition: ease-in-out 450ms;
                     text-overflow: ellipsis;
                     overflow: hidden;
                 }
@@ -135,6 +136,7 @@
                 justify-content: space-between;
 
                 & p{
+                    transition: all ease-in-out 450ms;
                     font-size: 17px;  
                     &:nth-child(1){
                         text-overflow: ellipsis;

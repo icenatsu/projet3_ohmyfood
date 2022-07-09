@@ -787,6 +787,7 @@ h1 {
   margin-bottom: 5px;
 }
 .lunches-card__food__title p {
+  transition: ease-in-out 450ms;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -795,6 +796,7 @@ h1 {
   justify-content: space-between;
 }
 .lunches-card__food__description p {
+  transition: all ease-in-out 450ms;
   font-size: 17px;
 }
 .lunches-card__food__description p:nth-child(1) {
