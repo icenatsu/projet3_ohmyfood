@@ -17,6 +17,7 @@ Primaire : #9356DC
 Secondaire : #FF79DA
 
 Tertiaire : #99E2D0
+
 ---------------------------------------------------------------------------
 
 ● Le développement devra se faire en CSS, sans JavaScript.
