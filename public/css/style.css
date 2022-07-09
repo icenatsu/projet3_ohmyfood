@@ -502,7 +502,9 @@ h1 {
   width: 100vw;
   height: 55vh;
   background-size: cover;
-  background: url("/public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat center;
+  background-image: url("/public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #lanoteenchantee {
