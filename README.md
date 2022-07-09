@@ -4,6 +4,8 @@ Ohmyfood
 Identité graphique
 ==
 
+![ohmyfood](https://github.com/icenatsu/projet3_ohmyfood/blob/master/ressources/maquettes_animations/Accueil.png?raw=true)
+
 Polices
 ===
 Logo et titres: Shrikhand
