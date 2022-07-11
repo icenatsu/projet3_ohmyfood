@@ -831,7 +831,7 @@ h1 {
     margin: -50px auto;
   }
   .menu-card__heart {
-    right: 320px;
+    position: sticky;
   }
   .menu-card__header {
     justify-content: center;
