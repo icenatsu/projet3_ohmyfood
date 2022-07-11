@@ -26,10 +26,11 @@
             fill: white;
             stroke: black;
             stroke-width: 30px;
-            cursor: pointer;
+            cursor: grab;
             transition: 0.6s ease-in-out;
         
-            &:hover{
+            &:active{
+                cursor: grabbing;
                 opacity: 0;
                 stroke: none;
             }
@@ -43,7 +44,8 @@
 
 @mixin check{
 
-    &:hover{
+    &:active{
+        cursor: grabbing;
         & .lunches-card__food{
             &__title{
                 & p{
