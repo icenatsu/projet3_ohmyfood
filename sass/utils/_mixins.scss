@@ -45,7 +45,6 @@
 @mixin check{
 
     &:focus{
-        cursor: grabbing;
         & .lunches-card__food{
             &__title{
                 & p{
