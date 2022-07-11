@@ -27,7 +27,7 @@
             stroke: black;
             stroke-width: 30px;
             cursor: grab;
-            transition: 0.8s ease-in-out 0.3s;
+            transition: 1s ease-in-out;
         
             &:focus{
                 stroke: none;
