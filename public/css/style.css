@@ -686,19 +686,19 @@ h1 {
   cursor: grab;
 }
 
-.lunches__starter:active {
+.lunches__starter:focus {
   cursor: grabbing;
 }
-.lunches__starter:active .lunches-card__food__title p {
+.lunches__starter:focus .lunches-card__food__title p {
   padding-right: 70px;
 }
-.lunches__starter:active .lunches-card__food__description p:nth-child(2) {
+.lunches__starter:focus .lunches-card__food__description p:nth-child(2) {
   padding-right: 70px;
 }
-.lunches__starter:active .container-icon {
+.lunches__starter:focus .container-icon {
   transform: translateX(0px);
 }
-.lunches__starter:active .container-icon i {
+.lunches__starter:focus .container-icon i {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -723,19 +723,19 @@ h1 {
   transform: translate(-50%, -50%) rotate(-360deg);
   transition: 0.5s ease-in-out;
 }
-.lunches__main:active {
+.lunches__main:focus {
   cursor: grabbing;
 }
-.lunches__main:active .lunches-card__food__title p {
+.lunches__main:focus .lunches-card__food__title p {
   padding-right: 70px;
 }
-.lunches__main:active .lunches-card__food__description p:nth-child(2) {
+.lunches__main:focus .lunches-card__food__description p:nth-child(2) {
   padding-right: 70px;
 }
-.lunches__main:active .container-icon {
+.lunches__main:focus .container-icon {
   transform: translateX(0px);
 }
-.lunches__main:active .container-icon i {
+.lunches__main:focus .container-icon i {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -760,19 +760,19 @@ h1 {
   transform: translate(-50%, -50%) rotate(-360deg);
   transition: 0.5s ease-in-out;
 }
-.lunches__dessert:active {
+.lunches__dessert:focus {
   cursor: grabbing;
 }
-.lunches__dessert:active .lunches-card__food__title p {
+.lunches__dessert:focus .lunches-card__food__title p {
   padding-right: 70px;
 }
-.lunches__dessert:active .lunches-card__food__description p:nth-child(2) {
+.lunches__dessert:focus .lunches-card__food__description p:nth-child(2) {
   padding-right: 70px;
 }
-.lunches__dessert:active .container-icon {
+.lunches__dessert:focus .container-icon {
   transform: translateX(0px);
 }
-.lunches__dessert:active .container-icon i {
+.lunches__dessert:focus .container-icon i {
   position: absolute;
   left: 50%;
   top: 50%;
