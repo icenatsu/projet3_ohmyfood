@@ -10,10 +10,11 @@
 
     &__heart{
         margin-right: 30px;
-        position: relative;
+        position: absolute;
+        right: 0;
+        bottom: 22px;
         width: 30px;
         height: 30px;
-        position: relative;
 
         &--full{
             fill: url(#color_fill);

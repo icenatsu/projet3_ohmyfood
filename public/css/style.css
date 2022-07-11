@@ -333,6 +333,7 @@ h1 {
   margin: auto;
 }
 .container_thumbnails .thumbnail {
+  position: relative;
   width: 100%;
   height: 280px;
   border-radius: 30px;
@@ -344,10 +345,11 @@ h1 {
 }
 .container_thumbnails .thumbnail__heart {
   margin-right: 30px;
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 22px;
   width: 30px;
   height: 30px;
-  position: relative;
 }
 .container_thumbnails .thumbnail__heart--full {
   fill: url(#color_fill);
@@ -535,10 +537,11 @@ h1 {
 }
 .menu-card__heart {
   margin-right: 30px;
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 22px;
   width: 30px;
   height: 30px;
-  position: relative;
 }
 .menu-card__heart--full {
   fill: url(#color_fill);
