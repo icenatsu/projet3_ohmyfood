@@ -373,12 +373,12 @@ h1 {
   stroke: black;
   stroke-width: 30px;
   cursor: grab;
-  transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out 0.3s;
 }
-.container_thumbnails .thumbnail__heart--empty:active {
-  cursor: grabbing;
-  opacity: 0;
+.container_thumbnails .thumbnail__heart--empty:focus {
   stroke: none;
+  opacity: 0;
+  outline: 0;
 }
 .container_thumbnails .thumbnail__heart .heart {
   position: absolute;
@@ -565,12 +565,12 @@ h1 {
   stroke: black;
   stroke-width: 30px;
   cursor: grab;
-  transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out 0.3s;
 }
-.menu-card__heart--empty:active {
-  cursor: grabbing;
-  opacity: 0;
+.menu-card__heart--empty:focus {
   stroke: none;
+  opacity: 0;
+  outline: 0;
 }
 .menu-card__heart .heart {
   position: absolute;

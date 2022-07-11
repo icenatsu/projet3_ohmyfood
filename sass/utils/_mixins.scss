@@ -27,12 +27,12 @@
             stroke: black;
             stroke-width: 30px;
             cursor: grab;
-            transition: 0.8s ease-in-out;
+            transition: 0.8s ease-in-out 0.3s;
         
-            &:active{
-                cursor: grabbing;
-                opacity: 0;
+            &:focus{
                 stroke: none;
+                opacity: 0;
+                outline: 0;
             }
         }
 
