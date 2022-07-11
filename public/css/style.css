@@ -568,6 +568,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .menu-card__title {
   font-family: "Shrikhand", sans-serif;
@@ -828,6 +829,9 @@ h1 {
     flex-direction: column;
     max-width: 1440px;
     margin: -50px auto;
+  }
+  .menu-card__heart {
+    right: 320px;
   }
   .menu-card__header {
     justify-content: center;

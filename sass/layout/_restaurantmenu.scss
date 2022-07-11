@@ -3,13 +3,13 @@
     border-radius: 70px;
     margin: -80px auto;
     padding: 10px;
-    
     @include heart;
 
     &__header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
     }
 
     &__title{
@@ -164,6 +164,10 @@
         flex-direction: column;
         max-width: 1440px;
         margin: -50px auto;
+
+        &__heart{
+            right: 320px;
+        }    
 
         &__header{
             justify-content: center;
