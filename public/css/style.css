@@ -969,6 +969,7 @@ a {
   }
   .menu-card__title {
     padding-right: 20px;
+    font-size: 30px;
   }
   .menu-card__food {
     display: grid;
