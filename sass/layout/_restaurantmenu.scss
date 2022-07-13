@@ -50,19 +50,19 @@
         &__start{
             grid-area: starter;
             margin-top: 30px;
-            @include animationDelay(2, 0, '.animationdelay1', '.animationdelay2', '.animationdelay3', '.animationdelay4');
+            @include animationDelay(0.7, 0, '.animationdelay1', '.animationdelay2', '.animationdelay3', '.animationdelay4');
         }
         
         &__main{
             grid-area: main;
             margin-top: 30px;
-            @include animationDelay(2, 0.6, '.animationdelay1', '.animationdelay2', '.animationdelay3');
+            @include animationDelay(0.7, 0.3, '.animationdelay1', '.animationdelay2', '.animationdelay3');
         }
         
         &__dessert{
             grid-area: dessert;
             margin-top: 30px;
-            @include animationDelay(2, 1.2, '.animationdelay1', '.animationdelay2', '.animationdelay3');
+            @include animationDelay(0.7, 0.6, '.animationdelay1', '.animationdelay2', '.animationdelay3');
         }
 
     }

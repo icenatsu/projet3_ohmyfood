@@ -1,5 +1,15 @@
+// @keyframes test{
+//     0%{
+//         transform: translateY(30px);
+//     }
+//     100%{
+//         transform: translateY(5px);
+//     }
+// }
+
 @keyframes delay{
     0%{
+        transform: translateY(20px);
         opacity: 0;
     }
     50%{
