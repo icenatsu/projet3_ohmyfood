@@ -498,6 +498,35 @@ a {
   .container_thumbnails .thumbnail {
     width: 45%;
   }
+  .container_thumbnails .thumbnail__heart {
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+    width: 30px;
+    height: 30px;
+  }
+  .container_thumbnails .thumbnail__heart--full {
+    fill: url(#color_fill);
+    stroke: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+  .container_thumbnails .thumbnail__heart--empty {
+    fill: white;
+    stroke: black;
+    stroke-width: 30px;
+    cursor: grab;
+    transition: 1s ease-in-out;
+  }
+  .container_thumbnails .thumbnail__heart--empty:hover {
+    stroke: none;
+    opacity: 0;
+    outline: 0;
+  }
+  .container_thumbnails .thumbnail__heart .heart {
+    position: absolute;
+  }
   .container_thumbnails .thumbnail:nth-child(1) {
     height: 40%;
   }
@@ -833,6 +862,35 @@ a {
     margin: -50px auto;
   }
   .menu-card__heart {
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 22px;
+    width: 30px;
+    height: 30px;
+  }
+  .menu-card__heart--full {
+    fill: url(#color_fill);
+    stroke: none;
+    cursor: pointer;
+    opacity: 1;
+  }
+  .menu-card__heart--empty {
+    fill: white;
+    stroke: black;
+    stroke-width: 30px;
+    cursor: grab;
+    transition: 1s ease-in-out;
+  }
+  .menu-card__heart--empty:hover {
+    stroke: none;
+    opacity: 0;
+    outline: 0;
+  }
+  .menu-card__heart .heart {
+    position: absolute;
+  }
+  .menu-card__heart {
     position: sticky;
   }
   .menu-card__header {
@@ -852,6 +910,108 @@ a {
     grid-area: food;
   }
 
+  .lunches__starter:hover .lunches-card__food__title p {
+    padding-right: 70px;
+  }
+  .lunches__starter:hover .lunches-card__food__description p:nth-child(2) {
+    padding-right: 70px;
+  }
+  .lunches__starter:hover .container-icon {
+    transform: translateX(0px);
+  }
+  .lunches__starter:hover .container-icon i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  .lunches__starter .container-icon {
+    position: absolute;
+    right: 0;
+    background-color: #99E2D0;
+    height: 100%;
+    width: 70px;
+    padding: 0 13px;
+    transform: translateX(70px);
+    transition: 0.65s;
+  }
+  .lunches__starter .container-icon i {
+    font-size: 1.9rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-360deg);
+    transition: 0.5s ease-in-out;
+  }
+  .lunches__main:hover .lunches-card__food__title p {
+    padding-right: 70px;
+  }
+  .lunches__main:hover .lunches-card__food__description p:nth-child(2) {
+    padding-right: 70px;
+  }
+  .lunches__main:hover .container-icon {
+    transform: translateX(0px);
+  }
+  .lunches__main:hover .container-icon i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  .lunches__main .container-icon {
+    position: absolute;
+    right: 0;
+    background-color: #99E2D0;
+    height: 100%;
+    width: 70px;
+    padding: 0 13px;
+    transform: translateX(70px);
+    transition: 0.65s;
+  }
+  .lunches__main .container-icon i {
+    font-size: 1.9rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-360deg);
+    transition: 0.5s ease-in-out;
+  }
+  .lunches__dessert:hover .lunches-card__food__title p {
+    padding-right: 70px;
+  }
+  .lunches__dessert:hover .lunches-card__food__description p:nth-child(2) {
+    padding-right: 70px;
+  }
+  .lunches__dessert:hover .container-icon {
+    transform: translateX(0px);
+  }
+  .lunches__dessert:hover .container-icon i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  .lunches__dessert .container-icon {
+    position: absolute;
+    right: 0;
+    background-color: #99E2D0;
+    height: 100%;
+    width: 70px;
+    padding: 0 13px;
+    transform: translateX(70px);
+    transition: 0.65s;
+  }
+  .lunches__dessert .container-icon i {
+    font-size: 1.9rem;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-360deg);
+    transition: 0.5s ease-in-out;
+  }
   .lunches-card__title {
     font-weight: bold;
     font-size: 1.1rem;
