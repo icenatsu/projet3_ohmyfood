@@ -210,24 +210,37 @@ a {
   text-align: center;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
   position: sticky;
-  padding: 40px 0 12px 0;
+  padding: 35px 0 12px 0;
 }
 #logo img {
-  width: 255px;
+  width: 200px;
 }
 
 .logo--precedent {
   position: absolute;
   font-size: 2rem;
-  left: 30px;
-  top: 40px;
+  left: 20px;
+  top: 35px;
 }
 
+@media screen and (min-width: 992px) {
+  #logo {
+    padding: 30px 0 12px 0;
+  }
+  #logo img {
+    width: 240px;
+  }
+
+  .logo--precedent {
+    left: 20px;
+    top: 35px;
+  }
+}
 .location {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 22px;
   padding: 26px 0;
   background-color: #eaeaea;
   position: relative;
@@ -238,7 +251,7 @@ a {
   background-color: #eaeaea;
   margin: auto;
   padding-left: 20px;
-  width: 235px;
+  width: 180px;
 }
 .location input::placeholder {
   opacity: 1;
@@ -379,7 +392,7 @@ a {
   transition: 0.3s ease-in-out;
 }
 .container_thumbnails .thumbnail__heart {
-  margin-right: 30px;
+  margin-right: 20px;
   position: absolute;
   right: 0;
   bottom: 22px;
@@ -430,11 +443,6 @@ a {
   top: 15px;
   color: #12624e;
   font-weight: bold;
-}
-.container_thumbnails .thumbnail .container__description {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .container_thumbnails .thumbnail__description {
   margin-left: 20px;
@@ -515,6 +523,13 @@ a {
   }
 }
 @media screen and (min-width: 992px) {
+  .location {
+    font-size: 25px;
+  }
+  .location input {
+    width: 225px;
+  }
+
   .larg_max {
     max-width: 1440px;
     margin: auto;
@@ -554,7 +569,7 @@ a {
     width: 45%;
   }
   .container_thumbnails .thumbnail__heart {
-    margin-right: 30px;
+    margin-right: 20px;
     position: absolute;
     right: 0;
     bottom: 22px;
@@ -630,7 +645,7 @@ a {
   padding: 10px;
 }
 .menu-card__heart {
-  margin-right: 30px;
+  margin-right: 20px;
   position: absolute;
   right: 0;
   bottom: 22px;
@@ -669,7 +684,7 @@ a {
   padding-left: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-size: 25px;
+  font-size: 23px;
 }
 .menu-card__food {
   display: grid;
@@ -917,7 +932,7 @@ a {
     margin: -50px auto;
   }
   .menu-card__heart {
-    margin-right: 30px;
+    margin-right: 20px;
     position: absolute;
     right: 0;
     bottom: 22px;

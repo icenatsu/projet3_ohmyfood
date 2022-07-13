@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 22px;
     padding: 26px 0;
     background-color: #eaeaea;
     position: relative;
@@ -15,7 +15,7 @@
         background-color: #eaeaea;
         margin: auto;
         padding-left: 20px;
-        width: 235px;
+        width: 180px;
 
         &::placeholder{
             opacity: 1;
@@ -24,7 +24,6 @@
         }
 
     }
-
 }
 
 // EXPLORE -------------------
@@ -47,7 +46,6 @@
 
     &__description{
         width: 90%;
-        
         text-align: center;
         padding: 10px;
     }
@@ -188,13 +186,6 @@
             }
         }
 
-        & .container__description{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            
-        }
-
         &__description{
             margin-left: 20px;
 
@@ -272,8 +263,16 @@
 }    
 
 @media screen and (min-width:992px){
-    
-    // ==> MQ 992 - FONCTIONNEMENT ET RESTAURANTS-------------------
+    // ==> MQ 992 - LOCATION
+    .location{
+        font-size: 25px;
+
+        & input{
+            width: 225px;
+        }
+    }
+
+    // ==> MQ 992 - FONCTIONNEMENT ET RESTAURANTS
     .larg_max{
         max-width: 1440px;
         margin: auto;
