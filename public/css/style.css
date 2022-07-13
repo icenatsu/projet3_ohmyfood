@@ -701,52 +701,52 @@ a {
   margin-top: 30px;
 }
 .menu-card__food__start .animationdelay1 {
-  -webkit-animation: delay 3s ease-in-out 0.1s both;
-  animation: delay 3s ease-in-out 0.1s both;
+  -webkit-animation: delay 2s ease-in-out 0.1s both;
+  animation: delay 2s ease-in-out 0.1s both;
 }
 .menu-card__food__start .animationdelay2 {
-  -webkit-animation: delay 3s ease-in-out 0.2s both;
-  animation: delay 3s ease-in-out 0.2s both;
+  -webkit-animation: delay 2s ease-in-out 0.2s both;
+  animation: delay 2s ease-in-out 0.2s both;
 }
 .menu-card__food__start .animationdelay3 {
-  -webkit-animation: delay 3s ease-in-out 0.3s both;
-  animation: delay 3s ease-in-out 0.3s both;
+  -webkit-animation: delay 2s ease-in-out 0.3s both;
+  animation: delay 2s ease-in-out 0.3s both;
 }
 .menu-card__food__start .animationdelay4 {
-  -webkit-animation: delay 3s ease-in-out 0.4s both;
-  animation: delay 3s ease-in-out 0.4s both;
+  -webkit-animation: delay 2s ease-in-out 0.4s both;
+  animation: delay 2s ease-in-out 0.4s both;
 }
 .menu-card__food__main {
   grid-area: main;
   margin-top: 30px;
 }
 .menu-card__food__main .animationdelay1 {
-  -webkit-animation: delay 3s ease-in-out 0.4s both;
-  animation: delay 3s ease-in-out 0.4s both;
+  -webkit-animation: delay 2s ease-in-out 0.7s both;
+  animation: delay 2s ease-in-out 0.7s both;
 }
 .menu-card__food__main .animationdelay2 {
-  -webkit-animation: delay 3s ease-in-out 0.5s both;
-  animation: delay 3s ease-in-out 0.5s both;
+  -webkit-animation: delay 2s ease-in-out 0.8s both;
+  animation: delay 2s ease-in-out 0.8s both;
 }
 .menu-card__food__main .animationdelay3 {
-  -webkit-animation: delay 3s ease-in-out 0.6s both;
-  animation: delay 3s ease-in-out 0.6s both;
+  -webkit-animation: delay 2s ease-in-out 0.9s both;
+  animation: delay 2s ease-in-out 0.9s both;
 }
 .menu-card__food__dessert {
   grid-area: dessert;
   margin-top: 30px;
 }
 .menu-card__food__dessert .animationdelay1 {
-  -webkit-animation: delay 3s ease-in-out 0.7s both;
-  animation: delay 3s ease-in-out 0.7s both;
+  -webkit-animation: delay 2s ease-in-out 1.3s both;
+  animation: delay 2s ease-in-out 1.3s both;
 }
 .menu-card__food__dessert .animationdelay2 {
-  -webkit-animation: delay 3s ease-in-out 0.8s both;
-  animation: delay 3s ease-in-out 0.8s both;
+  -webkit-animation: delay 2s ease-in-out 1.4s both;
+  animation: delay 2s ease-in-out 1.4s both;
 }
 .menu-card__food__dessert .animationdelay3 {
-  -webkit-animation: delay 3s ease-in-out 0.9s both;
-  animation: delay 3s ease-in-out 0.9s both;
+  -webkit-animation: delay 2s ease-in-out 1.5s both;
+  animation: delay 2s ease-in-out 1.5s both;
 }
 .menu-card .btn {
   display: flex;
