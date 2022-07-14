@@ -118,8 +118,8 @@
 
 
 @mixin loadingdelay($delay, $number){
-    @for $i from 1 to $number{
-        &:nth-child(#{$i}){
+    @for $i from 0 to $number{
+        &:nth-child(#{$i+1}){
             -webkit-animation-delay: #{$delay + 0.1s};
                     animation-delay: #{$delay + 0.1s};
             $delay: $delay + 0.1;

@@ -19,7 +19,7 @@
             font-weight: bold;
             letter-spacing: 10px;
             animation: lettre 1.5s linear;
-            @include loadingdelay(0, 11);
+            @include loadingdelay(0, 10);
         }
     }
 
@@ -35,7 +35,7 @@
             font-weight: bold;
             letter-spacing: 30px;
             animation: point 1.5s linear;
-            @include loadingdelay(0, 4);
+            @include loadingdelay(0, 3);
 
         }    
     }
