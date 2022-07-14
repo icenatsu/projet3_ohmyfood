@@ -50,14 +50,14 @@ a {
 }
 @keyframes loading {
   0% {
-    opacity: 0;
-    z-index: -1000;
+    opacity: 1;
   }
   50% {
     opacity: 0.5;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
+    z-index: -1000;
   }
 }
 @keyframes lettre {
@@ -92,7 +92,7 @@ a {
   width: 100%;
   height: 100%;
   position: fixed;
-  animation: 1s loading 2s reverse both;
+  animation: loading 1s 2s forwards;
   z-index: 2000;
   background-color: white;
 }
