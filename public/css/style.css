@@ -427,6 +427,7 @@ a {
   content: "Nouveau";
   padding: 8px 13px;
   background-color: #99E2D0;
+  border-radius: 3px;
   color: #12624e;
   font-weight: bold;
   position: absolute;
