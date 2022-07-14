@@ -12,7 +12,7 @@
 
 
 @mixin formBanner{
-    
+
     width: 100vw;
     height: 45vh;
     background-size: cover;
@@ -56,9 +56,29 @@
 }
 
 @mixin check($mode){
+    
+    .container-icon{
+        position: absolute;
+        right: 0;
+        background-color: $third-color;
+        height: 100%;
+        width: 70px;
+        padding: 0 13px;
+        transform: translateX(70px);
+        transition: 0.65s;
+        
+        & i{
+            font-size: 1.9rem;
+            color: white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%) rotate(-360deg);
+            transition: 0.5s ease-in-out;
+        }
+    }
 
     &:#{$mode}{
-
         & .lunches-card__food{
             &__title{
                 & p{
@@ -84,26 +104,6 @@
         }
     } 
     
-    .container-icon{
-        position: absolute;
-        right: 0;
-        background-color: $third-color;
-        height: 100%;
-        width: 70px;
-        padding: 0 13px;
-        transform: translateX(70px);
-        transition: 0.65s;
-        
-        & i{
-            font-size: 1.9rem;
-            color: white;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%) rotate(-360deg);
-            transition: 0.5s ease-in-out;
-        }
-    }
 }
 
 @mixin animationDelay($duration, $delay, $desc...){

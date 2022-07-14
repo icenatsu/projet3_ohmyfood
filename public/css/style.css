@@ -783,21 +783,6 @@ a {
   cursor: grab;
 }
 
-.lunches__starter:focus .lunches-card__food__title p {
-  padding-right: 70px;
-}
-.lunches__starter:focus .lunches-card__food__description p:nth-child(2) {
-  padding-right: 70px;
-}
-.lunches__starter:focus .container-icon {
-  transform: translateX(0px);
-}
-.lunches__starter:focus .container-icon i {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(0deg);
-}
 .lunches__starter .container-icon {
   position: absolute;
   right: 0;
@@ -817,16 +802,16 @@ a {
   transform: translate(-50%, -50%) rotate(-360deg);
   transition: 0.5s ease-in-out;
 }
-.lunches__main:focus .lunches-card__food__title p {
+.lunches__starter:focus .lunches-card__food__title p {
   padding-right: 70px;
 }
-.lunches__main:focus .lunches-card__food__description p:nth-child(2) {
+.lunches__starter:focus .lunches-card__food__description p:nth-child(2) {
   padding-right: 70px;
 }
-.lunches__main:focus .container-icon {
+.lunches__starter:focus .container-icon {
   transform: translateX(0px);
 }
-.lunches__main:focus .container-icon i {
+.lunches__starter:focus .container-icon i {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -851,16 +836,16 @@ a {
   transform: translate(-50%, -50%) rotate(-360deg);
   transition: 0.5s ease-in-out;
 }
-.lunches__dessert:focus .lunches-card__food__title p {
+.lunches__main:focus .lunches-card__food__title p {
   padding-right: 70px;
 }
-.lunches__dessert:focus .lunches-card__food__description p:nth-child(2) {
+.lunches__main:focus .lunches-card__food__description p:nth-child(2) {
   padding-right: 70px;
 }
-.lunches__dessert:focus .container-icon {
+.lunches__main:focus .container-icon {
   transform: translateX(0px);
 }
-.lunches__dessert:focus .container-icon i {
+.lunches__main:focus .container-icon i {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -884,6 +869,21 @@ a {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-360deg);
   transition: 0.5s ease-in-out;
+}
+.lunches__dessert:focus .lunches-card__food__title p {
+  padding-right: 70px;
+}
+.lunches__dessert:focus .lunches-card__food__description p:nth-child(2) {
+  padding-right: 70px;
+}
+.lunches__dessert:focus .container-icon {
+  transform: translateX(0px);
+}
+.lunches__dessert:focus .container-icon i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
 }
 .lunches-card {
   display: flex;
@@ -979,21 +979,6 @@ a {
     grid-area: food;
   }
 
-  .lunches__starter:hover .lunches-card__food__title p {
-    padding-right: 70px;
-  }
-  .lunches__starter:hover .lunches-card__food__description p:nth-child(2) {
-    padding-right: 70px;
-  }
-  .lunches__starter:hover .container-icon {
-    transform: translateX(0px);
-  }
-  .lunches__starter:hover .container-icon i {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
   .lunches__starter .container-icon {
     position: absolute;
     right: 0;
@@ -1013,16 +998,16 @@ a {
     transform: translate(-50%, -50%) rotate(-360deg);
     transition: 0.5s ease-in-out;
   }
-  .lunches__main:hover .lunches-card__food__title p {
+  .lunches__starter:hover .lunches-card__food__title p {
     padding-right: 70px;
   }
-  .lunches__main:hover .lunches-card__food__description p:nth-child(2) {
+  .lunches__starter:hover .lunches-card__food__description p:nth-child(2) {
     padding-right: 70px;
   }
-  .lunches__main:hover .container-icon {
+  .lunches__starter:hover .container-icon {
     transform: translateX(0px);
   }
-  .lunches__main:hover .container-icon i {
+  .lunches__starter:hover .container-icon i {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1047,16 +1032,16 @@ a {
     transform: translate(-50%, -50%) rotate(-360deg);
     transition: 0.5s ease-in-out;
   }
-  .lunches__dessert:hover .lunches-card__food__title p {
+  .lunches__main:hover .lunches-card__food__title p {
     padding-right: 70px;
   }
-  .lunches__dessert:hover .lunches-card__food__description p:nth-child(2) {
+  .lunches__main:hover .lunches-card__food__description p:nth-child(2) {
     padding-right: 70px;
   }
-  .lunches__dessert:hover .container-icon {
+  .lunches__main:hover .container-icon {
     transform: translateX(0px);
   }
-  .lunches__dessert:hover .container-icon i {
+  .lunches__main:hover .container-icon i {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1080,6 +1065,21 @@ a {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-360deg);
     transition: 0.5s ease-in-out;
+  }
+  .lunches__dessert:hover .lunches-card__food__title p {
+    padding-right: 70px;
+  }
+  .lunches__dessert:hover .lunches-card__food__description p:nth-child(2) {
+    padding-right: 70px;
+  }
+  .lunches__dessert:hover .container-icon {
+    transform: translateX(0px);
+  }
+  .lunches__dessert:hover .container-icon i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
   }
   .lunches-card__title {
     font-weight: bold;
