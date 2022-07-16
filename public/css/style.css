@@ -556,7 +556,32 @@ footer {
   .functioning__btn__item:nth-child(1) {
     height: 100%;
   }
-  .functioning__btn__item:nth-child(1)::before {
+  .functioning__btn__item:nth-child(1)::before:nth-child(1)::before {
+    content: "1";
+    border-radius: 50%;
+    padding: 7px 9px 3px 9px;
+    background-color: #9356DC;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 38px;
+    left: -12px;
+  }
+  .functioning__btn__item:nth-child(1)::before:nth-child(2)::before {
+    content: "2";
+    border-radius: 50%;
+    padding: 7px 9px 3px 9px;
+    background-color: #9356DC;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 38px;
+    left: -12px;
+  }
+  .functioning__btn__item:nth-child(1)::before:nth-child(3)::before {
+    content: "3";
     border-radius: 50%;
     padding: 7px 9px 3px 9px;
     background-color: #9356DC;
@@ -570,7 +595,32 @@ footer {
   .functioning__btn__item:nth-child(2) {
     height: 100%;
   }
-  .functioning__btn__item:nth-child(2)::before {
+  .functioning__btn__item:nth-child(2)::before:nth-child(1)::before {
+    content: "1";
+    border-radius: 50%;
+    padding: 7px 9px 3px 9px;
+    background-color: #9356DC;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 38px;
+    left: -12px;
+  }
+  .functioning__btn__item:nth-child(2)::before:nth-child(2)::before {
+    content: "2";
+    border-radius: 50%;
+    padding: 7px 9px 3px 9px;
+    background-color: #9356DC;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 38px;
+    left: -12px;
+  }
+  .functioning__btn__item:nth-child(2)::before:nth-child(3)::before {
+    content: "3";
     border-radius: 50%;
     padding: 7px 9px 3px 9px;
     background-color: #9356DC;
@@ -584,7 +634,32 @@ footer {
   .functioning__btn__item:nth-child(3) {
     height: 100%;
   }
-  .functioning__btn__item:nth-child(3)::before {
+  .functioning__btn__item:nth-child(3)::before:nth-child(1)::before {
+    content: "1";
+    border-radius: 50%;
+    padding: 7px 9px 3px 9px;
+    background-color: #9356DC;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 38px;
+    left: -12px;
+  }
+  .functioning__btn__item:nth-child(3)::before:nth-child(2)::before {
+    content: "2";
+    border-radius: 50%;
+    padding: 7px 9px 3px 9px;
+    background-color: #9356DC;
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 38px;
+    left: -12px;
+  }
+  .functioning__btn__item:nth-child(3)::before:nth-child(3)::before {
+    content: "3";
     border-radius: 50%;
     padding: 7px 9px 3px 9px;
     background-color: #9356DC;
