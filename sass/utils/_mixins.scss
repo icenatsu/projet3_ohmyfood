@@ -22,7 +22,7 @@
 }
 
 
-@mixin formNumberChoice($top){
+@mixin formNumberChoice($top, $left){
     @for $i from 1 through 3{
         &:nth-child(#{$i}){
             &::before{
@@ -35,7 +35,7 @@
                 font-family: $text-font;
                 position: absolute;
                 top: #{$top}px;
-                left: -12px;
+                left: #{$left}px;
             }
         }
     }
