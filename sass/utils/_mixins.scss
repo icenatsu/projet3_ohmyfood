@@ -39,7 +39,7 @@
             fill: white;
             stroke: black;
             stroke-width: 30px;
-            cursor: grab;
+            cursor: pointer;
             transition: 1s ease-in-out;
         
             &:#{$mode}{

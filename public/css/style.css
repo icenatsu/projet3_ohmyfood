@@ -496,7 +496,7 @@ footer {
   fill: white;
   stroke: black;
   stroke-width: 30px;
-  cursor: grab;
+  cursor: pointer;
   transition: 1s ease-in-out;
 }
 .container_thumbnails .thumbnail__heart--empty:focus {
@@ -671,7 +671,7 @@ footer {
     fill: white;
     stroke: black;
     stroke-width: 30px;
-    cursor: grab;
+    cursor: pointer;
     transition: 1s ease-in-out;
   }
   .container_thumbnails .thumbnail__heart--empty:hover {
@@ -719,7 +719,7 @@ footer {
   fill: white;
   stroke: black;
   stroke-width: 30px;
-  cursor: grab;
+  cursor: pointer;
   transition: 1s ease-in-out;
 }
 .menu-card__heart--empty:focus {
@@ -1006,7 +1006,7 @@ footer {
     fill: white;
     stroke: black;
     stroke-width: 30px;
-    cursor: grab;
+    cursor: pointer;
     transition: 1s ease-in-out;
   }
   .menu-card__heart--empty:hover {
