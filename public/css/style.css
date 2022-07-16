@@ -236,6 +236,90 @@ a {
     top: 35px;
   }
 }
+#lapalettedugout {
+  background: url("../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat center;
+  width: 100vw;
+  height: 45vh;
+  background-size: cover;
+}
+
+#lanoteenchantee {
+  background: url("../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg") no-repeat center;
+  width: 100vw;
+  height: 45vh;
+  background-size: cover;
+}
+
+#alafrancaise {
+  background: url("../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg") no-repeat center;
+  width: 100vw;
+  height: 45vh;
+  background-size: cover;
+}
+
+#ledelicedessens {
+  background: url("../img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") no-repeat center;
+  width: 100vw;
+  height: 45vh;
+  background-size: cover;
+}
+
+footer {
+  background-color: #353535;
+  width: 100vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.container__footer {
+  width: 90%;
+  margin: auto;
+}
+.container__footer i {
+  font-size: 15px;
+}
+
+.footer__contact, .footer__ml, .footer__partnership, .footer__offers {
+  margin-bottom: 15px;
+}
+
+#logo2 {
+  font-family: "Shrikhand", sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 22px;
+}
+
+.footer__offers {
+  font-size: 20px;
+  font-weight: 450;
+}
+.footer__offers a {
+  margin-left: 10px;
+}
+.footer__partnership {
+  font-size: 20px;
+  font-weight: 450;
+}
+.footer__partnership a {
+  margin-left: 5px;
+}
+.footer__ml {
+  font-size: 20px;
+}
+.footer__contact {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .location {
   display: flex;
   justify-content: center;
@@ -608,34 +692,6 @@ a {
     height: 40%;
   }
 }
-#lapalettedugout {
-  background: url("../img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat center;
-  width: 100vw;
-  height: 45vh;
-  background-size: cover;
-}
-
-#lanoteenchantee {
-  background: url("../img/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg") no-repeat center;
-  width: 100vw;
-  height: 45vh;
-  background-size: cover;
-}
-
-#alafrancaise {
-  background: url("../img/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg") no-repeat center;
-  width: 100vw;
-  height: 45vh;
-  background-size: cover;
-}
-
-#ledelicedessens {
-  background: url("../img/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") no-repeat center;
-  width: 100vw;
-  height: 45vh;
-  background-size: cover;
-}
-
 .menu-card {
   background-color: #f6f6f6;
   border-radius: 50px;
@@ -1089,62 +1145,6 @@ a {
     width: 70%;
     overflow: hidden;
     white-space: nowrap;
-  }
-}
-footer {
-  background-color: #353535;
-  width: 100vw;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  font-size: 1.3rem;
-}
-
-.container__footer {
-  width: 90%;
-  margin: auto;
-}
-.container__footer i {
-  font-size: 15px;
-}
-
-.footer__contact, .footer__ml, .footer__partnership, .footer__offers {
-  margin-bottom: 15px;
-}
-
-#logo2 {
-  font-family: "Shrikhand", sans-serif;
-  font-size: 25px;
-  margin-top: 30px;
-  margin-bottom: 22px;
-}
-
-.footer__offers {
-  font-size: 20px;
-  font-weight: 450;
-}
-.footer__offers a {
-  margin-left: 10px;
-}
-.footer__partnership {
-  font-size: 20px;
-  font-weight: 450;
-}
-.footer__partnership a {
-  margin-left: 5px;
-}
-.footer__ml {
-  font-size: 20px;
-}
-.footer__contact {
-  font-size: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .container__footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 
