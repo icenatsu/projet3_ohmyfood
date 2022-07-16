@@ -9,7 +9,9 @@
 
 @import "./layout/loader";
 @import "./layout/header";
-@import "./layout/container";
+
 @import "./layout/restaurantbanner";
-@import "./layout/restaurantmenu";
 @import "./layout/footer";
+
+@import "./pages/container";
+@import "./pages/restaurantmenu";
