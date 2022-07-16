@@ -608,9 +608,6 @@ footer {
     flex-wrap: wrap;
     height: 700px;
   }
-  .container_thumbnails .thumbnail {
-    width: 45%;
-  }
   .container_thumbnails .thumbnail__heart {
     margin-right: 20px;
     position: absolute;
@@ -641,15 +638,19 @@ footer {
     position: absolute;
   }
   .container_thumbnails .thumbnail:nth-child(1) {
+    width: 45%;
     height: 40%;
   }
   .container_thumbnails .thumbnail:nth-child(2) {
+    width: 45%;
     height: 40%;
   }
   .container_thumbnails .thumbnail:nth-child(3) {
+    width: 45%;
     height: 40%;
   }
   .container_thumbnails .thumbnail:nth-child(4) {
+    width: 45%;
     height: 40%;
   }
 }

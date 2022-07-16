@@ -1,3 +1,13 @@
+@mixin thumbnailsize($nombre, $width, $height){
+    @for $i from 1 through $nombre{
+        &:nth-child(#{$i}){
+            width: #{$width};
+            height: #{$height};
+        }
+    }
+}
+
+
 @mixin formNumberChoice($top){
     @for $i from 1 through 3{
         &:nth-child(#{$i}){
