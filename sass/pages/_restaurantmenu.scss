@@ -78,34 +78,21 @@
     }
 }
 
-%thumbnail__style{
-    display: flex;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px 12px 18px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    background-color: white;
-    margin: 20px auto;
-    width: 100%;
-    height: 80px;
-    overflow: hidden;
-    padding-left: 10px;
-    position: relative;
-    cursor: grab;
-}
 
 .lunches{
 
     &__starter{
-        @extend %thumbnail__style;
+        @include thumbnailstyle;
         @include check(focus);
     }
 
     &__main{
-        @extend %thumbnail__style;
+        @include thumbnailstyle;
         @include check(focus);
     }
 
     &__dessert{
-        @extend %thumbnail__style;
+        @include thumbnailstyle;
         @include check(focus);
     }
 
