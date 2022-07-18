@@ -27,35 +27,35 @@
 
 @keyframes lettre {
     0% {
-        color: #9356DC;
-        text-shadow: 0 0 7px #9356DC;
+        color: $primary-color;
+        text-shadow: 0 0 7px $primary-color;
     }
 
     90% {
-        color: #FF79DA;
+        color: $secondary-color;
         text-shadow: none;
     }
 
     100% {
-        color: #9356DC;
-        text-shadow: 0 0 7px #9356DC;
+        color: $primary-color;
+        text-shadow: 0 0 7px $primary-color;
     }
 }
 
 
 @keyframes point {
     0% {
-        color: #9356DC;
-        text-shadow: 0 0 7px #9356DC;
+        color: $primary-color;
+        text-shadow: 0 0 7px $primary-color;
     }
 
     90% {
-        color: #FF79DA;
+        color: $secondary-color;
         text-shadow: none;
     }
 
     100% {
-        color: #99E2D0;
-        text-shadow: 0 0 7px #9356DC;
+        color: $third-color;
+        text-shadow: 0 0 7px $primary-color;
     }
 }
