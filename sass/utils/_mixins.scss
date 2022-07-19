@@ -49,8 +49,8 @@
     background-size: cover;
 }
 
-@mixin heart($mode){
-
+@mixin heart($mode){ 
+/* $mode correspond pour le moment à ':focus' ou ':hover' => @include(':focus:') */
     &__heart{
         margin-right: 20px;
         position: absolute;
@@ -73,7 +73,7 @@
             cursor: pointer;
             transition: 1s ease-in-out;
         
-            &:#{$mode}{
+            &#{$mode}{
                 stroke: none;
                 opacity: 0;
                 outline: 0;
@@ -86,8 +86,8 @@
     }
 }
 
-@mixin check($mode){
-    
+@mixin check($mode){ 
+/* $mode correspond pour le moment à ':focus' ou ':hover' => @include(':focus:') */    
     .container-icon{
         position: absolute;
         right: 0;
@@ -109,7 +109,7 @@
         }
     }
 
-    &:#{$mode}{
+    &#{$mode}{
         & .lunches-card__food{
             &__title{
                 & p{

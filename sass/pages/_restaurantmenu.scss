@@ -3,7 +3,7 @@
     border-radius: 50px;
     margin: -80px auto;
     padding: 10px;
-    @include heart(focus);
+    @include heart(':focus');
 
     &__header{
         display: flex;
@@ -83,17 +83,17 @@
 
     &__starter{
         @include thumbnailstyle;
-        @include check(focus);
+        @include check(':focus');
     }
 
     &__main{
         @include thumbnailstyle;
-        @include check(focus);
+        @include check(':focus');
     }
 
     &__dessert{
         @include thumbnailstyle;
-        @include check(focus);
+        @include check(':focus');
     }
 
     &-card{
@@ -152,7 +152,7 @@
         flex-direction: column;
         max-width: 1440px;
         margin: -50px auto;
-        @include heart(hover);
+        @include heart(':hover');
 
         &__heart{
             position: sticky;
@@ -182,15 +182,15 @@
     .lunches{
 
             &__starter{
-                @include check(hover);
+                @include check(':hover');
             }
         
             &__main{
-                @include check(hover);
+                @include check(':hover');
             }
         
             &__dessert{
-                @include check(hover);
+                @include check(':hover');
             }
 
         &-card{
