@@ -4,3 +4,17 @@ $third-color: #99E2D0;
 
 $title-font: 'Shrikhand', sans-serif;  
 $text-font: 'Roboto', sans-serif;  
+
+
+$light-pc:
+lighten($primary-color, 1%);
+$light-sc:
+lighten($secondary-color, 1%);
+
+
+$button-shadow-color: rgba($color: #000000, $alpha: 0.4);
+$gradient-deg: 180deg;
+$light-shadow:
+lighten($button-shadow-color, 15%);
+$dark-shadow:
+darken($button-shadow-color, 100%);
