@@ -49,8 +49,8 @@
     background-size: cover;
 }
 
-@mixin heart($mode){ 
 /* $mode correspond pour le moment à ':focus' ou ':hover' => @include(':focus:') */
+@mixin heart($mode){ 
     &__heart{
         margin-right: 20px;
         position: absolute;
@@ -58,7 +58,7 @@
         bottom: 22px;
         width: 30px;
         height: 30px;
-        
+
         &--full{
             position: absolute;
             stroke: black;
@@ -77,8 +77,8 @@
     }
 }
 
-@mixin check($mode){ 
-/* $mode correspond pour le moment à ':focus' ou ':hover' => @include(':focus:') */    
+/* $mode correspond pour le moment à ':focus' ou ':hover' => @include(':focus:') */   
+@mixin check($mode){  
     .container-icon{
         position: absolute;
         right: 0;
