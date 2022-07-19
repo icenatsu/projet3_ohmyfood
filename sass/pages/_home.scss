@@ -134,7 +134,7 @@
     & .thumbnail{
 
         position: relative;
-        @include heart(focus);
+        @include heart(':focus');
         width: 100%;
         height: 280px;
         border-radius: 20px;
@@ -277,7 +277,7 @@
         height: 700px;
 
         & .thumbnail{
-            @include heart(hover);
+            @include heart(':hover');
             @include thumbnailsize(4, 45%, 40%);
         }
     } 
