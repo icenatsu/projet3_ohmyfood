@@ -50,9 +50,6 @@ a {
   0% {
     opacity: 1;
   }
-  50% {
-    opacity: 0.5;
-  }
   100% {
     opacity: 0;
     z-index: -1000;
@@ -498,7 +495,7 @@ footer {
   cursor: pointer;
   transition: 1s ease-in-out;
 }
-.container_thumbnails .thumbnail__heart--emptyfocus {
+.container_thumbnails .thumbnail__heart--empty:focus {
   stroke: none;
   opacity: 0;
   outline: 0;
@@ -631,7 +628,7 @@ footer {
     cursor: pointer;
     transition: 1s ease-in-out;
   }
-  .container_thumbnails .thumbnail__heart--emptyhover {
+  .container_thumbnails .thumbnail__heart--empty:hover {
     stroke: none;
     opacity: 0;
     outline: 0;
