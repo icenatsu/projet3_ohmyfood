@@ -483,25 +483,18 @@ footer {
   height: 30px;
 }
 .container_thumbnails .thumbnail__heart--full {
-  fill: url(#color_fill);
-  stroke: none;
-  cursor: pointer;
-  opacity: 1;
-}
-.container_thumbnails .thumbnail__heart--empty {
-  fill: white;
+  position: absolute;
   stroke: black;
   stroke-width: 30px;
+  fill: url(#color_fill);
+  fill-opacity: 0;
   cursor: pointer;
-  transition: 1s ease-in-out;
+  transition: 1s ease;
 }
-.container_thumbnails .thumbnail__heart--empty:focus {
-  stroke: none;
-  opacity: 0;
+.container_thumbnails .thumbnail__heart--full:focus {
+  stroke-opacity: 0;
+  fill-opacity: 1;
   outline: 0;
-}
-.container_thumbnails .thumbnail__heart .heart {
-  position: absolute;
 }
 .container_thumbnails .thumbnail:hover {
   transform: scale(1.03);
@@ -616,25 +609,18 @@ footer {
     height: 30px;
   }
   .container_thumbnails .thumbnail__heart--full {
-    fill: url(#color_fill);
-    stroke: none;
-    cursor: pointer;
-    opacity: 1;
-  }
-  .container_thumbnails .thumbnail__heart--empty {
-    fill: white;
+    position: absolute;
     stroke: black;
     stroke-width: 30px;
+    fill: url(#color_fill);
+    fill-opacity: 0;
     cursor: pointer;
-    transition: 1s ease-in-out;
+    transition: 1s ease;
   }
-  .container_thumbnails .thumbnail__heart--empty:hover {
-    stroke: none;
-    opacity: 0;
+  .container_thumbnails .thumbnail__heart--full:hover {
+    stroke-opacity: 0;
+    fill-opacity: 1;
     outline: 0;
-  }
-  .container_thumbnails .thumbnail__heart .heart {
-    position: absolute;
   }
   .container_thumbnails .thumbnail:nth-child(1) {
     width: 45%;
@@ -669,25 +655,18 @@ footer {
   height: 30px;
 }
 .menu-card__heart--full {
-  fill: url(#color_fill);
-  stroke: none;
-  cursor: pointer;
-  opacity: 1;
-}
-.menu-card__heart--empty {
-  fill: white;
+  position: absolute;
   stroke: black;
   stroke-width: 30px;
+  fill: url(#color_fill);
+  fill-opacity: 0;
   cursor: pointer;
-  transition: 1s ease-in-out;
+  transition: 1s ease;
 }
-.menu-card__heart--empty:focus {
-  stroke: none;
-  opacity: 0;
+.menu-card__heart--full:focus {
+  stroke-opacity: 0;
+  fill-opacity: 1;
   outline: 0;
-}
-.menu-card__heart .heart {
-  position: absolute;
 }
 .menu-card__header {
   display: flex;
@@ -985,25 +964,18 @@ footer {
     height: 30px;
   }
   .menu-card__heart--full {
-    fill: url(#color_fill);
-    stroke: none;
-    cursor: pointer;
-    opacity: 1;
-  }
-  .menu-card__heart--empty {
-    fill: white;
+    position: absolute;
     stroke: black;
     stroke-width: 30px;
+    fill: url(#color_fill);
+    fill-opacity: 0;
     cursor: pointer;
-    transition: 1s ease-in-out;
+    transition: 1s ease;
   }
-  .menu-card__heart--empty:hover {
-    stroke: none;
-    opacity: 0;
+  .menu-card__heart--full:hover {
+    stroke-opacity: 0;
+    fill-opacity: 1;
     outline: 0;
-  }
-  .menu-card__heart .heart {
-    position: absolute;
   }
   .menu-card__heart {
     position: sticky;
