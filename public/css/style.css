@@ -504,7 +504,6 @@ footer {
   height: 30px;
 }
 .container_thumbnails .thumbnail__heart--full {
-  position: absolute;
   stroke: black;
   stroke-width: 30px;
   fill: url(#color_fill);
@@ -627,7 +626,6 @@ footer {
     height: 30px;
   }
   .container_thumbnails .thumbnail__heart--full {
-    position: absolute;
     stroke: black;
     stroke-width: 30px;
     fill: url(#color_fill);
@@ -672,7 +670,6 @@ footer {
   height: 30px;
 }
 .menu-card__heart--full {
-  position: absolute;
   stroke: black;
   stroke-width: 30px;
   fill: url(#color_fill);
@@ -977,7 +974,6 @@ footer {
     height: 30px;
   }
   .menu-card__heart--full {
-    position: absolute;
     stroke: black;
     stroke-width: 30px;
     fill: url(#color_fill);
