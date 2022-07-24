@@ -28,8 +28,8 @@
   top: 0;
   left: 0;
   opacity: 0;
-  z-index: -2211;
   transition: opacity 0.3s;
+  z-index: -22222;
 }
 .button:hover {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
